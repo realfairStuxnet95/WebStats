@@ -1,0 +1,4 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+# Rewrite for members
+RewriteRule ^requests$ request_handler.php [NC,L]
