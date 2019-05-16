@@ -8,7 +8,8 @@ Class Statistics extends Execute{
 	}
 	public function getVisits($start_date,$end_date){
 		$sql="SELECT * FROM articles_visits WHERE article_last_visit BETWEEN $start_date AND \"$end_date\"";
-		return $this->querying($sql);
+		//return $this->querying($sql);
+		return $sql;
 	}
 	//get web visits date
 	public function getWebVisitsDates(){

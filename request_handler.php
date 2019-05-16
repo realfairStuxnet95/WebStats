@@ -9,7 +9,8 @@ if(isset($request['visit_date']) && $request['visit_date']!=''){
 	$start_date=$function->fixServerDate($request['start_date']);
 	$end_date=$function->fixServerDate($request['end_date']);
 	$visits=$stats->getVisits($start_date,$end_date);
-	echo count($visits);
+	//echo count($visits);
+	echo $visits;
 }
 else{
 	echo "500";
