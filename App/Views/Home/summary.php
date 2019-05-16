@@ -10,7 +10,17 @@ $TodayVisits=$stats->getAllTodayVisits($today_date);
             <div class="wigdet-one-content">
                 <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="Statistics">Today Web Visits</p>
                 <h2 id="h_visits"><?php echo count($TodayVisits); ?></h2>
-                +3663
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card-box widget-box-one">
+            <i class="mdi mdi-chart-areaspline widget-one-icon"></i>
+            <div class="wigdet-one-content">
+                <p class="m-0 text-uppercase font-600 font-secondary text-overflow p_title" title="Statistics">Custom Range Visits</p>
+                <h2 id="range_visits">
+                    0
+                </h2>
             </div>
         </div>
     </div>
